@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tip Donusumleri", "Tip Donu
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hata Yonetimi", "Hata Yonetimi\Hata Yonetimi.csproj", "{5166E9AF-A72F-4F30-84C8-B827C17A9F0E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "if-else-if", "if-else-if\if-else-if.csproj", "{8F68A502-6A6E-483D-93E0-466CAA30542A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{5166E9AF-A72F-4F30-84C8-B827C17A9F0E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5166E9AF-A72F-4F30-84C8-B827C17A9F0E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5166E9AF-A72F-4F30-84C8-B827C17A9F0E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8F68A502-6A6E-483D-93E0-466CAA30542A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F68A502-6A6E-483D-93E0-466CAA30542A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F68A502-6A6E-483D-93E0-466CAA30542A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F68A502-6A6E-483D-93E0-466CAA30542A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
