@@ -6,22 +6,22 @@ namespace Hata_Yonetimi
     {
         static void Main(string[] args)
         {
-            //try
-            //{
-            //    Console.WriteLine("Bir sayı giriniz:");
-            //    int sayi = Convert.ToInt32(Console.ReadLine());
-            //    Console.WriteLine("Girmiş olduğunuz sayi : " + sayi);
-            //}
-            //catch (Exception ex)
-            //{
-            //    // try ya hata varsa burada yakalnıyor.
-            //    Console.WriteLine("Hata: " + ex.Message.ToString());
-            //}
-            //finally
-            //{
-            //    // Hata alsın almasın kullanıcıya bu mesajı gösteriyoruz. finally bu işe yarıyor.Zorunlu değil finally scope
-            //    Console.WriteLine("İşlem tamamlandı.");
-            //}
+            try
+            {
+                Console.WriteLine("Bir sayı giriniz:");
+                int sayi = Convert.ToInt32(Console.ReadLine());
+                Console.WriteLine("Girmiş olduğunuz sayi : " + sayi);
+            }
+            catch (Exception ex)
+            {
+                // try ya hata varsa burada yakalnıyor.
+                Console.WriteLine("Hata: " + ex.Message.ToString());
+            }
+            finally
+            {
+                // Hata alsın almasın kullanıcıya bu mesajı gösteriyoruz. finally bu işe yarıyor.Zorunlu değil finally scope
+                Console.WriteLine("İşlem tamamlandı.");
+            }
 
             try
             {
