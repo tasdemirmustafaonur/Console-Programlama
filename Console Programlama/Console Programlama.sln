@@ -9,17 +9,19 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Degiskenler", "Degiskenler\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Operatorler", "Operatorler\Operatorler.csproj", "{16D89E57-9B85-43D0-A1AD-5F937DD418CD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tip Donusumleri", "Tip Donusumleri\Tip Donusumleri.csproj", "{F46FBD9F-12CF-4D41-88A6-F93338CE86F8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tip Donusumleri", "Tip Donusumleri\Tip Donusumleri.csproj", "{F46FBD9F-12CF-4D41-88A6-F93338CE86F8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hata Yonetimi", "Hata Yonetimi\Hata Yonetimi.csproj", "{5166E9AF-A72F-4F30-84C8-B827C17A9F0E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hata Yonetimi", "Hata Yonetimi\Hata Yonetimi.csproj", "{5166E9AF-A72F-4F30-84C8-B827C17A9F0E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "if-else-if", "if-else-if\if-else-if.csproj", "{8F68A502-6A6E-483D-93E0-466CAA30542A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "if-else-if", "if-else-if\if-else-if.csproj", "{8F68A502-6A6E-483D-93E0-466CAA30542A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "switch-case", "switch-case\switch-case.csproj", "{5DE65039-3110-47E0-AAD7-994FD7BEC06D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "switch-case", "switch-case\switch-case.csproj", "{5DE65039-3110-47E0-AAD7-994FD7BEC06D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "For Loop", "For Loop\For Loop.csproj", "{A10498B1-1187-443A-A3DA-0DE70EE880EE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "For Loop", "For Loop\For Loop.csproj", "{A10498B1-1187-443A-A3DA-0DE70EE880EE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "While-Foreach", "While-Foreach\While-Foreach.csproj", "{89D9EA42-B1E9-4D21-B1F8-B44E9D8583A0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "While-Foreach", "While-Foreach\While-Foreach.csproj", "{89D9EA42-B1E9-4D21-B1F8-B44E9D8583A0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Arrays", "Arrays\Arrays.csproj", "{F8A1287D-41CC-4BBE-972E-6F1FC8D40E78}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -63,6 +65,10 @@ Global
 		{89D9EA42-B1E9-4D21-B1F8-B44E9D8583A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{89D9EA42-B1E9-4D21-B1F8-B44E9D8583A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{89D9EA42-B1E9-4D21-B1F8-B44E9D8583A0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F8A1287D-41CC-4BBE-972E-6F1FC8D40E78}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8A1287D-41CC-4BBE-972E-6F1FC8D40E78}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8A1287D-41CC-4BBE-972E-6F1FC8D40E78}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8A1287D-41CC-4BBE-972E-6F1FC8D40E78}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
