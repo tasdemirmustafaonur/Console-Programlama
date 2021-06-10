@@ -8,6 +8,7 @@ namespace CollectionQuestion1
         static void Main(string[] args)
         {
             int counter = 0;
+            
             ArrayList primeNumbers = new ArrayList();
             ArrayList nonprimeNumbers = new ArrayList();
             while (counter < 5)
@@ -31,9 +32,17 @@ namespace CollectionQuestion1
                 }
                 counter++;
             }
+            ReverseSort(primeNumbers);
+            ReverseSort(nonprimeNumbers);
+            Console.Write("Asal sayılar: ");
             foreach (var item in primeNumbers)
             {
-                Console.WriteLine(item);
+                Console.Write(" "+item);
+            }
+            Console.Write("Asal olmayan sayılar: ");
+            foreach (var item in nonprimeNumbers)
+            {
+                Console.Write(" " + item);
             }
         }
         static bool IsPrime(int number)
@@ -54,6 +63,18 @@ namespace CollectionQuestion1
             }
             return result;
         }
+        public static void ReverseSort(ArrayList list)
+        {
+            list.Sort();
+            list.Reverse();
+        }
+        public static int ListCount(ArrayList list)
+        {
+            int count = list.Count;
+            return count;
+        }
+        
+
 
     }
    
