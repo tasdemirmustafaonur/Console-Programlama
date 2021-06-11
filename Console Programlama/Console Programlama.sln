@@ -53,6 +53,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Constructor", "Constructor\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Encapsulation", "Encapsulation\Encapsulation.csproj", "{649678AE-59CA-4F97-A10F-DBAD998FAAAC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StaticClass", "StaticClass\StaticClass.csproj", "{3C903540-D714-43A8-971D-ED24C13F72CE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -159,6 +161,10 @@ Global
 		{649678AE-59CA-4F97-A10F-DBAD998FAAAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{649678AE-59CA-4F97-A10F-DBAD998FAAAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{649678AE-59CA-4F97-A10F-DBAD998FAAAC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3C903540-D714-43A8-971D-ED24C13F72CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C903540-D714-43A8-971D-ED24C13F72CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C903540-D714-43A8-971D-ED24C13F72CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C903540-D714-43A8-971D-ED24C13F72CE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
